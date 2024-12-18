@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Form</title>
+</head>
+<body>
+    <h1>ゲーム結果送信テストフォーム</h1>
+    <form action="http://localhost:8080/NumberGame/saveGameResult" method="POST">
+        <input type="hidden" name="playerId" value="1">
+        <input type="hidden" name="attempts" value="5">
+        <input type="hidden" name="isCleared" value="true">
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
